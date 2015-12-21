@@ -1,0 +1,458 @@
+{
+    "types": {
+        "stimulus-start": "The square appears on the screen",
+        "stimulus-end": "The square disappears from the screen",
+        "gaze-blink": "Eyes are closed",
+        "gaze-saccade-start": "Saccade begins",
+        "gaze-saccade-end": "Saccade ends",
+        "gaze-saccades": "Multiple small saccades"
+    },
+    "locations": {
+        "mid": "Middle of the screen",
+        "ur": "Upper right corner",
+        "ul": "Upper left corner",
+        "ll": "Lower left corner",
+        "lr": "Lower right corner",
+        "unknown": "Location cannot be easily determined"
+    },
+    "events": [
+        {
+            "type": "stimulus-start",
+            "location": "mid",
+            "frame_id_min": 1312,
+            "frame_id_max": 1312
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 1389,
+            "frame_id_max": 1392
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 1411,
+            "frame_id_max": 1440
+        },
+        {
+            "type": "gaze-fixated",
+            "location": "unknown",
+            "frame_id_min": 1450,
+            "frame_id_max": 1450
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 2009,
+            "frame_id_max": 2016
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 2117,
+            "frame_id_max": 2128
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 2283,
+            "frame_id_max": 2297
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 2423,
+            "frame_id_max": 2435
+        },
+        {
+            "type": "stimulus-end",
+            "location": "mid",
+            "frame_id_min": 2514,
+            "frame_id_max": 2516
+        },
+        {
+            "type": "stimulus-start",
+            "location": "mid",
+            "frame_id_min": 2784,
+            "frame_id_max": 2785
+        },
+        {
+            "type": "stimulus-move",
+            "location": "lr",
+            "frame_id_min": 3024,
+            "frame_id_max": 3025
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 3075,
+            "frame_id_max": 3075
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "lr",
+            "frame_id_min": 3079,
+            "frame_id_max": 3079
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 3506,
+            "frame_id_max": 3507
+        },
+        {
+            "type": "stimulus-move",
+            "location": "ll",
+            "frame_id_min": 3748,
+            "frame_id_max": 3749
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 3777,
+            "frame_id_max": 3777
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "ll",
+            "frame_id_min": 3783,
+            "frame_id_max": 3783
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 4230,
+            "frame_id_max": 4231
+        },
+        {
+            "type": "stimulus-move",
+            "location": "ul",
+            "frame_id_min": 4472,
+            "frame_id_max": 4473
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 4490,
+            "frame_id_max": 4490
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "ul",
+            "frame_id_min": 4496,
+            "frame_id_max": 4497
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 4704,
+            "frame_id_max": 4706
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 4952,
+            "frame_id_max": 4952
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 4987,
+            "frame_id_max": 4992
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 5060,
+            "frame_id_max": 5072
+        },
+        {
+            "type": "stimulus-move",
+            "location": "ur",
+            "frame_id_min": 5194,
+            "frame_id_max": 5194
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 5216,
+            "frame_id_max": 5216
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "ur",
+            "frame_id_min": 5223,
+            "frame_id_max": 5223
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 5676,
+            "frame_id_max": 5676
+        },
+        {
+            "type": "stimulus-move",
+            "location": "lr",
+            "frame_id_min": 5919,
+            "frame_id_max": 5919
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 5948,
+            "frame_id_max": 5948
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "lr",
+            "frame_id_min": 5953,
+            "frame_id_max": 5954
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 6401,
+            "frame_id_max": 6401
+        },
+        {
+            "type": "stimulus-move",
+            "location": "ll",
+            "frame_id_min": 6643,
+            "frame_id_max": 6643
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 6658,
+            "frame_id_max": 6659
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "unknown",
+            "frame_id_min": 6662,
+            "frame_id_max": 6663
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "unknown",
+            "frame_id_min": 6717,
+            "frame_id_max": 6718
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "ll",
+            "frame_id_min": 6721,
+            "frame_id_max": 6721
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 7125,
+            "frame_id_max": 7125
+        },
+        {
+            "type": "stimulus-move",
+            "location": "ul",
+            "frame_id_min": 7366,
+            "frame_id_max": 7367
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 7390,
+            "frame_id_max": 7391
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "unknown",
+            "frame_id_min": 7398,
+            "frame_id_max": 7399
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "unknown",
+            "frame_id_min": 7459,
+            "frame_id_max": 7460
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "ul",
+            "frame_id_min": 7463,
+            "frame_id_max": 7464
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 7604,
+            "frame_id_max": 7609
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 7663,
+            "frame_id_max": 7670
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 7848,
+            "frame_id_max": 7849
+        },
+        {
+            "type": "stimulus-move",
+            "location": "ur",
+            "frame_id_min": 8090,
+            "frame_id_max": 8091
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 8113,
+            "frame_id_max": 8113
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "unknown",
+            "frame_id_min": 8119,
+            "frame_id_max": 8120
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "unknown",
+            "frame_id_min": 8179,
+            "frame_id_max": 8180
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "ur",
+            "frame_id_min": 8183,
+            "frame_id_max": 8184
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 8570,
+            "frame_id_max": 8571
+        },
+        {
+            "type": "stimulus-move",
+            "location": "lr",
+            "frame_id_min": 8813,
+            "frame_id_max": 8814
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 8836,
+            "frame_id_max": 8837
+        },
+        {
+            "type": "gaze-saccades",
+            "location": "unknown",
+            "frame_id_min": 8837,
+            "frame_id_max": 8908
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "lr",
+            "frame_id_min": 8908,
+            "frame_id_max": 8910
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 9295,
+            "frame_id_max": 9296
+        },
+        {
+            "type": "stimulus-move",
+            "location": "ll",
+            "frame_id_min": 9538,
+            "frame_id_max": 9538
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 9558,
+            "frame_id_max": 9559
+        },
+        {
+            "type": "gaze-saccades",
+            "location": "unknown",
+            "frame_id_min": 9559,
+            "frame_id_max": 9599
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "ll",
+            "frame_id_min": 9598,
+            "frame_id_max": 9601
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 10019,
+            "frame_id_max": 10020
+        },
+        {
+            "type": "stimulus-move",
+            "location": "ul",
+            "frame_id_min": 10261,
+            "frame_id_max": 10261
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 10290,
+            "frame_id_max": 10291
+        },
+        {
+            "type": "gaze-saccades",
+            "location": "unknown",
+            "frame_id_min": 10291,
+            "frame_id_max": 10357
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "ul",
+            "frame_id_min": 10356,
+            "frame_id_max": 10360
+        },
+        {
+            "type": "gaze-blink",
+            "location": "unknown",
+            "frame_id_min": 10473,
+            "frame_id_max": 10480
+        },
+        {
+            "type": "stimulus-move",
+            "location": "mid",
+            "frame_id_min": 10743,
+            "frame_id_max": 10743
+        },
+        {
+            "type": "stimulus-move",
+            "location": "ur",
+            "frame_id_min": 10985,
+            "frame_id_max": 10985
+        },
+        {
+            "type": "gaze-saccade-start",
+            "location": "mid",
+            "frame_id_min": 11016,
+            "frame_id_max": 11016
+        },
+        {
+            "type": "gaze-saccade-end",
+            "location": "ur",
+            "frame_id_min": 11076,
+            "frame_id_max": 11080
+        },
+        {
+            "type": "stimulus-end",
+            "location": "ur",
+            "frame_id_min": 11466,
+            "frame_id_max": 11471
+        }
+    ]
+}
