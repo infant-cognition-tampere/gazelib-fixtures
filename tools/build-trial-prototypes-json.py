@@ -1,5 +1,6 @@
 import os
 import gazelib
+from lib import *
 
 this_dir = os.path.dirname(os.path.realpath(__file__))
 root_dir = os.path.dirname(this_dir)
@@ -21,45 +22,10 @@ g4 = gazelib.gazepoints_containing_value(g3, 'tag', ['Target'])
 g5 = gazelib.split_at_change_in_value(g4, 'trialnumber')
 g6 = list(map(lambda trial: gazelib.first_gazepoints(trial, 300), g5))
 
-def get_value_or_none(value):
-    value = float(value)
-    if value == -1.0:
-        return None
-    return value
-
-def gazepoint_to_icl_pointlist_v1(gp):
-    x = get_value_or_none(gp['comb_x'])
-    y = get_value_or_none(gp['comb_y'])
-    return [x, y]
-
-def gazepoint_to_icl_cyclops_v1(gp):
-    return {
-        'x': get_value_or_none(gp['comb_x']),
-        'y': get_value_or_none(gp['comb_y']),
-        'time': int(gp['TETTime'])
-    }
-
-def gazepoint_to_icl_standard_v1(gp):
-    return {
-        'left_x': get_value_or_none(gp['XGazePosLeftEye']),
-        'left_y': get_value_or_none(gp['YGazePosLeftEye']),
-        'left_pupil_diam': get_value_or_none(gp['LeftEyePupilDiameter']),
-        'right_x': get_value_or_none(gp['XGazePosRightEye']),
-        'right_y': get_value_or_none(gp['YGazePosRightEye']),
-        'right_pupil_diam': get_value_or_none(gp['LeftEyePupilDiameter']),
-        'time': int(gp['TETTime'])
-    }
-
 def get_outfilepath(trial_index, fileformat):
     filename = ('trial-' + str(trial_index).zfill(3) + ''
                '.' + fileformat + '.json')
     return os.path.join(target_dir, filename)
-
-def trial_to_icl_pointlist_v1(trial):
-    return list(map(gazepoint_to_icl_pointlist_v1, trial))
-
-def trial_to_icl_standard_v1(trial):
-    return list(map(gazepoint_to_icl_standard_v1, trial))
 
 pointlists = list(map(trial_to_icl_pointlist_v1, g6))
 outfilepath = os.path.join(target_dir, 'trials-gazepoints.pointlist.json')

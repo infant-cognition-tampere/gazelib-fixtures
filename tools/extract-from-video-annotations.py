@@ -1,3 +1,12 @@
+'''
+This file is used to extract trial features from video annotations.
+
+The features include:
+- saccadic reaction time
+- saccade duration
+
+'''
+
 import json
 import os
 import gazelib
