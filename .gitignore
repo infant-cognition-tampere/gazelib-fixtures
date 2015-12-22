@@ -63,8 +63,5 @@ target/
 # OS X
 .DS_Store
 
-# Exclude large files
-original-recordings/recording-001-video-diff-enhanced.mp4
-original-recordings/recording-001-trials.gazedata
-original-recordings/recording-001-fixation.gazedata
+# Exclude generated files
 prototypes/
