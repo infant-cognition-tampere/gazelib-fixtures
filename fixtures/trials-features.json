@@ -1,0 +1,86 @@
+[
+    {
+        "saccade_duration_ms_max": 33.33333333333212,
+        "saccade_duration_ms_min": 33.33333333333212,
+        "saccadic_reaction_time_ms_max": 425.0,
+        "saccadic_reaction_time_ms_min": 416.6666666666679,
+        "trial_id": 0
+    },
+    {
+        "saccade_duration_ms_max": 50.0,
+        "saccade_duration_ms_min": 50.0,
+        "saccadic_reaction_time_ms_max": 241.66666666666788,
+        "saccadic_reaction_time_ms_min": 233.33333333333212,
+        "trial_id": 1
+    },
+    {
+        "saccade_duration_ms_max": 58.33333333333576,
+        "saccade_duration_ms_min": 50.0,
+        "saccadic_reaction_time_ms_max": 150.0,
+        "saccadic_reaction_time_ms_min": 141.66666666666424,
+        "trial_id": 2
+    },
+    {
+        "saccade_duration_ms_max": 58.33333333333576,
+        "saccade_duration_ms_min": 58.33333333333576,
+        "saccadic_reaction_time_ms_max": 183.33333333332848,
+        "saccadic_reaction_time_ms_min": 183.33333333332848,
+        "trial_id": 3
+    },
+    {
+        "saccade_duration_ms_max": 50.0,
+        "saccade_duration_ms_min": 41.66666666667152,
+        "saccadic_reaction_time_ms_max": 241.66666666666424,
+        "saccadic_reaction_time_ms_min": 241.66666666666424,
+        "trial_id": 4
+    },
+    {
+        "saccade_duration_ms_max": 525.0,
+        "saccade_duration_ms_min": 516.6666666666715,
+        "saccadic_reaction_time_ms_max": 133.33333333332848,
+        "saccadic_reaction_time_ms_min": 125.0,
+        "trial_id": 5
+    },
+    {
+        "saccade_duration_ms_max": 616.6666666666642,
+        "saccade_duration_ms_min": 600.0,
+        "saccadic_reaction_time_ms_max": 208.33333333332848,
+        "saccadic_reaction_time_ms_min": 191.66666666667152,
+        "trial_id": 6
+    },
+    {
+        "saccade_duration_ms_max": 591.6666666666715,
+        "saccade_duration_ms_min": 583.333333333343,
+        "saccadic_reaction_time_ms_max": 191.66666666665697,
+        "saccadic_reaction_time_ms_min": 183.33333333332848,
+        "trial_id": 7
+    },
+    {
+        "saccade_duration_ms_max": 616.6666666666715,
+        "saccade_duration_ms_min": 591.666666666657,
+        "saccadic_reaction_time_ms_max": 200.0,
+        "saccadic_reaction_time_ms_min": 183.33333333332848,
+        "trial_id": 8
+    },
+    {
+        "saccade_duration_ms_max": 358.3333333333285,
+        "saccade_duration_ms_min": 325.0,
+        "saccadic_reaction_time_ms_max": 175.0,
+        "saccadic_reaction_time_ms_min": 166.66666666667152,
+        "trial_id": 9
+    },
+    {
+        "saccade_duration_ms_max": 583.3333333333285,
+        "saccade_duration_ms_min": 541.6666666666715,
+        "saccadic_reaction_time_ms_max": 250.0,
+        "saccadic_reaction_time_ms_min": 241.66666666667152,
+        "trial_id": 10
+    },
+    {
+        "saccade_duration_ms_max": 533.3333333333285,
+        "saccade_duration_ms_min": 500.0,
+        "saccadic_reaction_time_ms_max": 258.3333333333285,
+        "saccadic_reaction_time_ms_min": 258.3333333333285,
+        "trial_id": 11
+    }
+]
