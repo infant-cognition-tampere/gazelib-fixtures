@@ -1,19 +1,89 @@
-==================
-saccade-prototypes
-==================
+================
+gazelib-fixtures
+================
 
-Provides a collection of human gaze recordings to be used for unit testing and algorithm design.
+This package contains 14 human gaze recordings to be used for unit testing and algorithm design.
+
+SRT = Saccadic Reaction Time
+SD = Saccade Duration
+C = Center of the screen
+UR = Upper Right corner
+LR = Lower Right corner
+UL = Upper Left corner
+LL = Lower Left corner
+
+Two (2) fixations
+=================
+We asked the participant to stare at C, recorded the gaze position on screen with an eye tracker, and then selected two representative sets of 1000 sample points.
+
+Samples in fixtures/fixation-gazepoints.\*.json
+- [0]: fixation of 3.3 sec without blinks
+  - 1000 sample points
+  - 300 Hz sampling rate
+  - 0 invalid sample points
+- [1]: fixation of 3.3 sec with 3 blinks
+  - 1000 sample points
+  - 300 Hz sampling rate
+  - TODO invalid sample points
+
+Twelve (12) saccades
+====================
+Each saccade sample contains 300 sample points recorded at 300 Hz. At the first sample point a stimulus image was revealed at one of the four corners. After SRT sample points the gaze starts to move and the movement lasts for SD sample points.
+
+Samples in fixtures/trials-gazepoints.\*.json
+- [0]: direct saccade from C to UR
+- [1]: direct saccade from C to LR
+- [2]: direct saccade from C to LL
+- [3]: direct saccade from C to UL
+- [4]: multipart saccade from C to UR
+- [5]: multipart saccade from C to LR
+- [6]: multipart saccade from C to LL
+- [7]: multipart saccade from C to UL
+- [8]: curved multipart saccade from C to UR
+- [9]: curved multipart saccade from C to LR
+- [10]: curved multipart saccade from C to LL
+- [11]: curved multipart saccade from C to UL
+
+We extracted SRT and SD from a video recording (120 Hz) for each trial. They are available in ``fixtures/trials-features.json``.
+
+File formats
+============
+
+The samples come in two formats: pointlist and standard.
+
+\*.pointlist.json
+-----------------
+
+A pointlist file is a list of samples. Each sample is a list of points. Each point is a list [x, y]. The x and y are combined average coordinates of both eyes.
 
 
-Dataset description
+\*.standard.json
+----------------
+
+A standard file is a list of samples. Each sample is a list of points. Each point is a dictionary with the following keys:
+
+- left_pupil_diam: The diameter of left pupil. Example value: 3.190
+- left_x: The horizontal gaze position of the left eye. Relative to screen size. Example value: 0.507
+- left_y: The vertical gaze position of the left eye. Relative to screen size. Example value: 0.541
+- right_pupil_diam: The diameter of right pupil. Example value: 3.190
+- right_x: The horizontal gaze position of the right eye. Relative to screen size. Example value: 0.515
+- right_y: Vertical gaze position of the right eye. Example value: 0.549
+- time: Sample capture time in microseconds since UNIX epoch. Example value: 1448373364122185
+
+
+
+Data collection method
+======================
+
+The data has been collected through the following experiment. The participant is asked to follow a white square on a screen. For the first 10 seconds, the square stays still at the center of the screen. The participant stares at the square and blinks his eyes a few times. After the 10 seconds, 12 attention shifting trials were played. With each trial, the square first appears at the middle, and after two seconds, moves to a corner. For the first 4 trials, the participant was asked to follow the square as quickly as possible. For the next 4 trials, the participant was asked to pause the saccade between the center and the corner and then continue to the corner. For the last 4 trials, the participant was asked to do arc-like saccades.
+
+Detailed description of the used collection methods can be found at TODO LINK PDF
+
+
+Original recordings
 ===================
 
-The set contains 14
-
-Original recording
-------------------
-
-The original recording contains four files:
+The original recordings are contained in four files:
 
 - original-recordings/recording-001-fixation.gazedata
 - original-recordings/recording-001-trials.gazedata
@@ -52,28 +122,16 @@ The gazedata files are tab-separated-values files with following columns:
 - endtime: Phase end UNIX timestamp in microseconds
 
 
-The data has been collected through the following experiment. The participant is asked to follow a white square on a screen. For the first 10 seconds, the square stays still at the center of the screen. The participant stares at the square and blinks his eyes a few times. After the 10 seconds, 12 attention shifting trials were played. With each trial, the square first appears at the middle, and after two seconds, moves to a corner. For the first 4 trials, the participant was asked to follow the square as quickly as possible. For the next 4 trials, the participant was asked to pause the saccade between the center and the corner and then continue to the corner. For the last 4 trials, the participant was asked to do arc-like saccades.
 
-The experiment was recorded with both camera (120 Hz) and eye tracker (300 Hz). The recordings are available under ``original-recording/``. The timing of the events, such as stimulus appearing times and saccade starting times, were extracted from the video manually, resulting the file ``original-recording/recording-001-video-annotations.json``.
+TODO
+====
 
-More details on the experiment are available under ``docs/``.
-
-Derived prototypes
-------------------
-
-13 prototype files were generated from the data:
-
--  1 fixation at the center without blinks.
--  1 fixation at the center with multiple blinks.
--  4 saccades from the center to a corner.
--  8 cases where the gaze stopped one or more times while moving from the center to a corner.
-
-For each case, the following are provided: a) the tracked gaze points, b) video recording, and c) features extracted from video, such as saccadic reaction times or times of blinks.
-
-
-Format
-======
-
+- rename to gazelib-fixtures
+- visualize prototypes, a PDF could be nice
+- document how to access them
+- export experiment document to PDF and add to repo
+- push to github
+- add to ICL web page
 
 
 Developer notes
