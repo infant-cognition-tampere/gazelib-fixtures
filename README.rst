@@ -4,13 +4,15 @@ gazelib-fixtures
 
 This package contains 14 human gaze recordings to be used for unit testing and algorithm design.
 
-SRT = Saccadic Reaction Time
-SD = Saccade Duration
-C = Center of the screen
-UR = Upper Right corner
-LR = Lower Right corner
-UL = Upper Left corner
-LL = Lower Left corner
+Abbreviations:
+
+- SRT = Saccadic Reaction Time
+- SD = Saccade Duration
+- C = Center of the screen
+- UR = Upper Right corner
+- LR = Lower Right corner
+- UL = Upper Left corner
+- LL = Lower Left corner
 
 Two (2) fixations
 =================
