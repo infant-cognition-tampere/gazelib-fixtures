@@ -18,15 +18,16 @@ Two (2) fixations
 =================
 We asked the participant to stare at C, recorded the gaze position on screen with an eye tracker, and then selected two representative sets of 1000 sample points.
 
-Samples in fixtures/fixation-gazepoints.\*.json
-- [0]: fixation of 3.3 sec without blinks
-  - 1000 sample points
-  - 300 Hz sampling rate
-  - 0 invalid sample points
-- [1]: fixation of 3.3 sec with 3 blinks
-  - 1000 sample points
-  - 300 Hz sampling rate
-  - 102 invalid sample points
+Samples in fixtures/fixation-gazepoints.\*.json:
+
+-  [0]: fixation of 3.3 sec without blinks
+   - 1000 sample points
+   - 300 Hz sampling rate
+   - 0 invalid sample points
+-  [1]: fixation of 3.3 sec with 3 blinks
+   - 1000 sample points
+   - 300 Hz sampling rate
+   - 102 invalid sample points
 
 Twelve (12) saccades
 ====================
