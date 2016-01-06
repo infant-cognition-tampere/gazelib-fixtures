@@ -21,10 +21,13 @@ We asked the participant to stare at C, recorded the gaze position on screen wit
 Samples in fixtures/fixation-gazepoints.\*.json:
 
 -  [0]: fixation of 3.3 sec without blinks
+
    - 1000 sample points
    - 300 Hz sampling rate
    - 0 invalid sample points
+
 -  [1]: fixation of 3.3 sec with 3 blinks
+
    - 1000 sample points
    - 300 Hz sampling rate
    - 102 invalid sample points
