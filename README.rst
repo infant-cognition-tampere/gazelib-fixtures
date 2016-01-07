@@ -36,7 +36,8 @@ Twelve (12) saccades
 ====================
 Each saccade sample contains 300 sample points recorded at 300 Hz. At the first sample point a stimulus image was revealed at one of the four corners. After SRT sample points the gaze starts to move and the movement lasts for SD sample points.
 
-Samples in fixtures/trials-gazepoints.\*.json
+Samples in fixtures/trials-gazepoints.\*.json:
+
 - [0]: direct saccade from C to UR
 - [1]: direct saccade from C to LR
 - [2]: direct saccade from C to LL
