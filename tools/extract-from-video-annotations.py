@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 This file is used to extract trial features from video annotations.
 

@@ -86,6 +86,8 @@ Data collection method
 
 The data has been collected through the following experiment. The participant is asked to follow a white square on a screen. For the first 10 seconds, the square stays still at the center of the screen. The participant stares at the square and blinks his eyes a few times. After the 10 seconds, 12 attention shifting trials were played. With each trial, the square first appears at the middle, and after two seconds, moves to a corner. For the first 4 trials, the participant was asked to follow the square as quickly as possible. For the next 4 trials, the participant was asked to pause the saccade between the center and the corner and then continue to the corner. For the last 4 trials, the participant was asked to do arc-like saccades.
 
+Tobii TX300 eye tracker was used to capture the data.
+
 **Detailed description** of the used collection methods can be found at ``docs/method-description.pdf``.
 
 

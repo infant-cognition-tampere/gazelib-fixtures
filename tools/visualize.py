@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
 '''
 We use this file as an ad-hoc tool to visualize gazedata.
 
+DEPRECATED: Use gazelib.visualization instead.
 '''
 
 import os

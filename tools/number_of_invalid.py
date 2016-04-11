@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import gazelib
 
 gp = gazelib.load_json('fixtures/fixation-gazepoints.pointlist.json')

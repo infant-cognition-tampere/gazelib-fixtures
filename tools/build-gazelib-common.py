@@ -1,5 +1,10 @@
+# -*- coding: utf-8 -*-
 '''
 Convert original recordings to gazelib/common/v1
+
+Execute:
+    $ cd tools/
+    $ python build-gazelib-common.py
 '''
 
 import gazelib

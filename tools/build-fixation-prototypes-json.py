@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 In this file we pick:
 - a fixation without blinks (rows 600-1600)
